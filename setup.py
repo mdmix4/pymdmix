@@ -11,19 +11,13 @@ def getRequirements():
     return requirements
 
 
-def getVersion():
-    return "0.0.1"
-
-
 setup(
     python_requires=">=3.8",
-    name="pymdmix-plugin-template",
-    version=getVersion(),
-    description="Plugin template for kick-starting a new project",
+    name="pymdmix",
+    version="4.0.0",
+    description="pymdmix meta-package",
     author="ggutierrez-bio",
     author_email="",
     url="https://github.com/ggutierrez-bio/mdmix4",
-    data_files=[("pymdmix", ["defaults/pymdmix_plugin_template.yml"])],
-    packages=["pymdmix_plugin_template"],
     install_requires=getRequirements(),
 )
