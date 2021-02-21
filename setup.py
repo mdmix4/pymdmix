@@ -14,7 +14,7 @@ def getRequirements():
 setup(
     python_requires=">=3.8",
     name="pymdmix",
-    version="4.0.0",
+    version="4.0.1",
     description="pymdmix meta-package",
     author="ggutierrez-bio",
     author_email="",
