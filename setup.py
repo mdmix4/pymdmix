@@ -20,4 +20,7 @@ setup(
     author_email="",
     url="https://github.com/ggutierrez-bio/mdmix4",
     install_requires=getRequirements(),
+    inlcude_package_data=True,
+    data_files=[("pymdmix", ["defaults/pymdmix_core.yml"])],
+    license="MIT",
 )

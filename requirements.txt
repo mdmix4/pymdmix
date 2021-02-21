@@ -1,2 +1,3 @@
-pymdmix-core @ https://github.com/mdmix4/pymdmix-core/archive/master.zip
-pymdmix-project @ https://github.com/mdmix4/pymdmix-project/archive/master.zip
+pymdmix-core
+# pymdmix-project
+pymdmix-solvent
