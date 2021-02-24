@@ -1,3 +1,5 @@
 def test_import():
     import pymdmix_core
-    assert pymdmix_core is not None
+    import pymdmix_solvent
+    import pymdmix_run
+    import pymdmix_project

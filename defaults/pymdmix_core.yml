@@ -3,8 +3,9 @@ mdmix_core_runtime:
 pymdmix_core:
   installed_plugins:
   - pymdmix_core
-  #- pymdmix_project
+  - pymdmix_project
   - pymdmix_solvent
+  - pymdmix_run
   orm:
     db_file: pymdmix.db
     dialect: sqlite

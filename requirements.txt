@@ -1,3 +1,4 @@
 pymdmix-core
-# pymdmix-project
+pymdmix-project
 pymdmix-solvent
+pymdmix-run
